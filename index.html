@@ -10,20 +10,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- BootStrap Stuff -->
     <style>
-        /* Change around background colors */
         section {
             padding: 40px 0;
         }
 
         h1 {
             font-size: 36px;
-            color: black;
-            background-color: rgba(129, 122, 122, 0.877);
+            color: rgb(36, 35, 35);
+            background-color: rgb(196, 193, 193);
             text-align: center;
+            font-family:'Courier New', Courier, monospace;
             width: 100%;
             padding: 50px;
             margin: 0px 0;
-            /* Add different font and different color for font */
         }
         .navStyle {
             background-color: lightgrey;
@@ -38,7 +37,7 @@
 
 <header>
     <h1>
-        Cade's Gallery <!-- Change background color perchance -->
+        John's Gallery
     </h1>
 </header>
 
@@ -46,24 +45,23 @@
 <div class="navStyle">
     <ul class="nav justify-content-center">
         <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link active" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#section1">Section 1</a>
+        <a class="nav-link" href="#nature">Nature</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#section2">Section 2</a>
+        <a class="nav-link" href="#ocean">Ocean</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#section3">Section 3</a>
+        <a class="nav-link" href="#industrial">Industrial</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+        <a class="nav-link" href="#more" tabindex="-1" aria-disabled="false">More</a>
         </li>
     </ul>
 </div>
 <!-- End of Nav Bar -->
-
 
 
 <section id="home">
@@ -99,7 +97,7 @@
 </section>
 
 <section>
-    <div class="container-md">
+    <div class="container-md" id="nature">
             <h2>Mother Nature</h2> <br>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugiat dicta qui eos? Numquam corporis quibusdam, mollitia rem quis cupiditate. Culpa, fugit iste 
@@ -139,7 +137,7 @@
     </div>
 </section>
 <br>
-<section>
+<section id="ocean">
     <div class="container-md">
             <h2>Ocean</h2>
             <p>
@@ -152,7 +150,7 @@
 </section>
 <br>
 <!-- Section #2 of images -->
-<section id="section2">
+<section>
     <div class="container-md">
         <div class="row align-items-center">
             <div class="col m-1 p-1">
@@ -182,7 +180,7 @@
 <br>
 
 <section>
-    <div class="container-md">
+    <div class="container-md" id="industrial">
             <h2>Industrial</h2> <br>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi distinctio aliquid molestiae nisi dolores corporis, debitis modi perferendis culpa. 
@@ -195,7 +193,7 @@
 </section>
 
 <!-- Section #3 of images -->
-<section id="section3">
+<section>
     <div class="container-md">
         <!-- Row #1 -->
         <div class="row align-items-center">
@@ -228,7 +226,7 @@
 
 </section>
 
-<section id="about">
+<section>
     <!-- About pictures... where to find more -->
     <div class="container-md">
         <h2>About The Photos</h2>
@@ -249,9 +247,9 @@
 </section>
 
 <!-- Card groups for other photographers -->
-<section>
+<section id="more">
     <div class="container-md">
-        <h2 class="text-center">Photographers You May Like</h2>
+        <h2 class="text-center">Other Photographers You May Like</h2>
     </div>
     <br><br>
     <div class="container-md">
@@ -265,10 +263,12 @@
 
                         <h5 class="card-title">John Doe</h5>
                         <p class="card-text">
-                        
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum atque sequi nostrum voluptatum laudantium doloremque id recusandae 
+                        totam necessitatibus minima velit quas non magni accusamus ex nisi cum molestiae, iste quisquam saepe. Officiis ducimus eius porro quos, 
+                        sed cumque dolor.
                         </p>
                         <p class="card-text"><small class="text-body-secondary">
-
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </small></p>
                     </div>
             </div>
@@ -280,10 +280,12 @@
                     <div class="card-body">
                         <h5 class="card-title">Jane Doe</h5>
                         <p class="card-text">
-
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est quibusdam excepturi maxime assumenda dolore impedit ex 
+                            repellendus ipsa! Libero harum maiores praesentium sunt accusamus molestias aliquid deserunt doloribus nisi amet, debitis neque 
+                            quis aut totam. Facere voluptates veritatis autem!
                         </p>
                         <p class="card-text"><small class="text-body-secondary">
-
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         </small></p>
                     </div>
             </div>
@@ -295,10 +297,12 @@
                     <div class="card-body">
                         <h5 class="card-title">John Doe</h5>
                         <p class="card-text">
-
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nostrum assumenda et ea at sunt similique mollitia deleniti? Libero 
+                            inventore eos fuga velit repellat eius aliquid vel odit recusandae ex quos neque repellendus impedit veritatis, praesentium et ipsa 
+                            molestiae unde!
                         </p>
                         <p class="card-text"><small class="text-body-secondary">
-
+                            Lorem ipsum dolor sit amet consectetur.
                         </small></p>
                     </div>
             </div>
